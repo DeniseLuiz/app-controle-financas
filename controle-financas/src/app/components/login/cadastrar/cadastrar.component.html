@@ -1,1 +1,55 @@
-<p>cadastrar works!</p>
+<form class="example-form">
+  <div class="row">
+    <mat-form-field class="example-full-width">
+      <mat-label>Nome</mat-label>
+      <input
+        type="text"
+        matInput
+        aria-label="Age"
+        aria-describedby="basic-addon1">
+      <!-- <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+        Please enter a valid email address
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('required')">
+        Email is <strong>required</strong>
+      </mat-error> -->
+    </mat-form-field>
+  </div>
+  <div class="row">
+    <mat-form-field class="example-full-width">
+      <mat-label>Email</mat-label>
+      <input
+        type="email"
+        matInput
+        placeholder="Ex. pat@example.com"
+        aria-label="Age"
+        aria-describedby="basic-addon1">
+      <!-- <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+        Please enter a valid email address
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('required')">
+        Email is <strong>required</strong>
+      </mat-error> -->
+    </mat-form-field>
+  </div>
+  <div class="row">
+    <mat-form-field class="example-full-width">
+      <mat-label>Idade</mat-label>
+      <input
+        type="number"
+        matInput
+        placeholder="Idade"
+        aria-label="Age"
+        aria-describedby="basic-addon1">
+      <!-- <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+        Please enter a valid email address
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('required')">
+        Email is <strong>required</strong>
+      </mat-error> -->
+    </mat-form-field>
+  </div>
+  <div class="full-width">
+    <button type="submit" mat-raised-button color="primary">CONTINUAR CADASTRO</button>
+  </div>
+</form>
